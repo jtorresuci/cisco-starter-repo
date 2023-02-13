@@ -1,0 +1,18 @@
+/* IpAddress.css */
+.ip-address {
+    background-color: #f6f7f9;
+    padding: 20px;
+    border-radius: 4px;
+  }
+  
+  .ip-address-label {
+    font-size: 16px;
+    color: #365899;
+  }
+  
+  .ip-address-value {
+    font-size: 20px;
+    color: #365899;
+    font-weight: bold;
+  }
+  

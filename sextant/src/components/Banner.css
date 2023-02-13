@@ -3,12 +3,13 @@
     align-items: center;
     justify-content: center;
     height: 60px;
-    background-color: #333;
+    background-color: #1877f2;
     color: white;
   }
   
   .banner-title {
-    font-size: 36px;
+    font-size: 24px;
     margin: 0;
+    font-weight: bold;
   }
   

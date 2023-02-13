@@ -1,47 +1,21 @@
+/* Exhibit.css */
 .exhibit {
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    margin: 20px auto;
-    border: 1px solid #333;
-    border-radius: 4px;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .exhibit-heading {
-    font-size: 24px;
-    padding: 20px;
-    background-color: #333;
-    color: white;
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
-    text-align: center;
-  }
-  
-  .exhibit-tabs {
-    display: flex;
-    border-bottom: 1px solid #333;
-  }
-  
-  .exhibit-tab {
-    flex: 1;
-    padding: 10px;
-    background-color: white;
-    text-align: center;
-    border-right: 1px solid #333;
-    cursor: pointer;
-  }
-  
-  .exhibit-tab:last-child {
-    border-right: none;
-  }
-  
-  .exhibit-tab.active {
-    background-color: #333;
-    color: white;
-  }
-  
-  .exhibit-content {
-    padding: 20px;
-  }
-  
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.exhibit-heading {
+  font-size: 24px;
+  padding: 20px;
+  background-color: #3b5998;
+  color: white;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  text-align: center;
+}
+
+.exhibit-content {
+  padding: 20px;
+}
