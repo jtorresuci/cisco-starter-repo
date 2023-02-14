@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Banner from "./components/Banner";
+import Exhibit from "./components/Exhibit";
+import IpAddress from "./components/IpAddress";
+import PacketLatency from "./components/PacketLatency";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Banner title="Sextant Dashboard" />
+      <Exhibit heading="IP Stats">
+        <IpAddress type="ipv4" />
+        <IpAddress type="ipv6" />
+        <PacketLatency />
+      </Exhibit>{" "}
     </div>
   );
 }
